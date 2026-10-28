@@ -1,5 +1,4 @@
-FACILITATOR RESOURCE SCREEN UPDATE
+HYBRID STEP 3 - INDIVIDUAL STRATEGIC BRIEF
 Replace only src/App.jsx and src/styles.css.
-Built directly from the current attached working files.
-Only the facilitator Resources screen changed. Phone Resources screen is unchanged.
-No Supabase, hospital image, deployment, package, or schema changes.
+No Supabase schema changes are required.
+Adds private persona briefs, 30-second read, table introductions, productive tension, and ready state.
