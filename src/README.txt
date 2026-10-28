@@ -1,8 +1,5 @@
-CORRECTED VISUAL BASELINE
-- 4 visible hospital images on entry, fixed 2x2 mosaic
-- visual split Create the Room screen
-- zero table cards until a participant actually joins a table
-- then only active/joined tables appear
-- hospital imagery retained throughout
-- latest resource explanation retained
-Replace src/App.jsx and src/styles.css. Keep/upload public/hospitals PNGs. No Supabase changes.
+FACILITATOR RESOURCE SCREEN UPDATE
+Replace only src/App.jsx and src/styles.css.
+Built directly from the current attached working files.
+Only the facilitator Resources screen changed. Phone Resources screen is unchanged.
+No Supabase, hospital image, deployment, package, or schema changes.
