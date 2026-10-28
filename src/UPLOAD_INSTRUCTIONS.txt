@@ -1,0 +1,7 @@
+HYBRID 0.2 UPDATE
+1. Replace src/App.jsx with App.jsx.
+2. Replace src/styles.css with styles.css.
+3. Create public/hospitals/ at repository root.
+4. Upload all four PNG files into public/hospitals/.
+5. Commit to main. Existing deploy.yml redeploys automatically.
+No Supabase, secrets, package.json, or workflow changes are needed.
