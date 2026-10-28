@@ -161,3 +161,37 @@
 
 /* Step 5 shared-selection continuity fix */
 .selection-live-status{margin-top:12px!important;padding:12px!important;background:var(--stantec-lilac);border-left:4px solid var(--stantec-purple)!important;display:flex!important;justify-content:space-between!important;align-items:center!important}.selection-live-status b{font-size:9px!important;letter-spacing:.1em;color:var(--stantec-purple)}.selection-live-status strong{font-size:12px!important;text-align:right}.cap-confirm-room>.room-actions{gap:10px}
+/* =========================================================
+   ROUND 1.1 ADDITIONS
+   Paste this block at the VERY END of src/styles.css.
+   Do not remove anything already in styles.css.
+   ========================================================= */
+
+/* Mission-fit chips */
+.fit-chip{display:inline-block;padding:4px 8px;font-size:9px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;border-radius:2px;white-space:nowrap}
+.fit-essential{background:var(--stantec-deep,#35134f);color:#fff}
+.fit-high{background:var(--stantec-purple,#6a2ca0);color:#fff}
+.fit-moderate{background:var(--stantec-lilac,#eee7f3);color:var(--stantec-deep,#35134f)}
+.fit-low{background:#ece9e4;color:#6b6570}
+
+/* Facilitator capability cards: fit per active table */
+.cap-fit-row{list-style:none;margin:12px 0 0;padding:10px 0 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px}
+.cap-fit-row li{display:flex;align-items:center;gap:4px}
+.cap-fit-row em{font-style:normal;font-size:9px;font-weight:800;color:#6b6570}
+
+/* Phone capability cards: hospital-specific fit */
+.phone-fit{display:flex;flex-direction:column;gap:5px;margin:8px 0;padding:9px;background:var(--stantec-lilac,#eee7f3)}
+.phone-fit .fit-chip{align-self:flex-start}
+.phone-fit em{font-style:normal;font-size:11px;line-height:1.35;color:#3d3a40}
+
+/* Nomination results: persona-level detail */
+.nomination-personas{margin-top:10px;padding-top:10px;border-top:2px solid var(--stantec-lilac,#eee7f3);display:flex;flex-direction:column;gap:4px}
+.nomination-personas small{font-size:11px;color:#5b5660}
+.common-capability{margin:6px 0 0!important;padding:16px 20px!important}
+.common-capability strong{font-size:22px!important}
+
+/* Table decision proposal */
+.proposal-banner{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:6px 0 10px;padding:12px;background:var(--stantec-lilac,#eee7f3);border-left:4px solid var(--stantec-purple,#6a2ca0)}
+.proposal-banner b{font-size:10px;letter-spacing:.1em;color:var(--stantec-purple,#6a2ca0)}
+.proposal-banner span{font-size:12px;font-weight:700}
+.phone-card .button + .button{margin-top:8px}
